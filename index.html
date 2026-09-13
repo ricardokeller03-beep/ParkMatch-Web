@@ -869,7 +869,7 @@ footer {
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
           <span class="btn-text"><small>Descargar en</small>App Store</span>
         </a>
-        <a class="btn btn-ghost" href="#" id="link-android">
+        <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.parkmatch.com" target="_blank" id="link-android">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.33.18.7.2 1.06.04l12.37-7.15-2.84-2.84-10.59 9.95zM.5 1.76C.19 2.1 0 2.63 0 3.32v17.36c0 .69.19 1.22.5 1.56l.08.08 9.72-9.72v-.23L.58 1.68.5 1.76zm19.48 8.53l-2.65-1.53-3.15 3.15 3.15 3.15 2.68-1.55c.76-.44.76-1.16-.03-1.22zM4.24.24L16.6 7.38l-2.84 2.84L3.18.27C3.55.1 3.92.06 4.24.24z"/></svg>
           <span class="btn-text"><small>Disponible en</small>Google Play</span>
         </a>
@@ -964,15 +964,15 @@ footer {
         <div class="step-item active" onclick="setStep(0)">
           <div class="step-n">1</div>
           <div class="step-body">
-            <h4>Indica la zona donde necesitas aparcar</h4>
-            <p>Abre la app, activa "Buscar plaza" y selecciona tu destino. ParkMatch muestra los liberadores activos cerca en tiempo real.</p>
+            <h4>Mira quién está a punto de irse</h4>
+            <p>Abre la app y verás en el mapa las plazas que se liberan cerca, en tiempo real y con el color de su zona. Si no hay ninguna, pulsa "Avísame si sale una plaza" y te avisamos.</p>
           </div>
         </div>
         <div class="step-item" onclick="setStep(1)">
           <div class="step-n">2</div>
           <div class="step-body">
-            <h4>Recibe el match y ve directo</h4>
-            <p>Cuando un liberador acepta, recibes su ubicación exacta y navegación giro a giro. La plaza te está esperando.</p>
+            <h4>Resérvala y ve directo</h4>
+            <p>Tocas la plaza, la reservas por 2 € y queda apartada para ti. La app te lleva hasta ella con navegación giro a giro e indicaciones por voz.</p>
           </div>
         </div>
         <div class="step-item" onclick="setStep(2)">
@@ -1006,14 +1006,14 @@ footer {
           <div class="step-n">1</div>
           <div class="step-body">
             <h4>Avisa cuando vayas a salir</h4>
-            <p>Antes de arrancar, abre la app y activa "Liberar plaza". ParkMatch busca un buscador compatible en tu zona.</p>
+            <p>Antes de arrancar, abre la app y pulsa "Voy a mi coche". Indicas el tamaño de la plaza, si es zona blanca, verde o azul, y en cuántos minutos llegas.</p>
           </div>
         </div>
         <div class="step-item" onclick="setStep(1, 'giver')">
           <div class="step-n">2</div>
           <div class="step-body">
-            <h4>Acepta el match y espera</h4>
-            <p>Un buscador acepta tu plaza. Ves su tiempo de llegada en tiempo real. Espera a que llegue y sal cuando esté a punto.</p>
+            <h4>Alguien la reserva y viene</h4>
+            <p>Te avisamos en cuanto un conductor reserva tu plaza, y la ves en rojo en el mapa. Sigues su llegada en tiempo real y sales cuando esté a punto.</p>
           </div>
         </div>
         <div class="step-item" onclick="setStep(2, 'giver')">
@@ -1037,6 +1037,39 @@ footer {
             <img src="appstore_screenshots/screenshot_5.png" alt="Saldo ganado" class="app-shot">
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCENE 3.5 – NOVEDADES -->
+<section class="trust-scene" id="novedades">
+  <div class="inner">
+    <p class="t-caption reveal" style="margin-bottom:12px">Novedades</p>
+    <h2 class="t-headline reveal d1" style="font-size:clamp(1.8rem,3vw,2.4rem);margin-bottom:16px">Sabes dónde aparcas<br>antes de moverte.</h2>
+    <p style="font-size:.9rem;color:var(--muted);max-width:620px;margin:0 auto 44px" class="reveal d1">Aparcar no es solo encontrar hueco: es saber si vas a poder dejar el coche ahí. Estas son las últimas incorporaciones.</p>
+
+    <div class="trust-features">
+      <div class="trust-feat reveal">
+        <div class="trust-feat-icon" style="display:flex;gap:7px;align-items:center">
+          <span style="width:17px;height:17px;border-radius:50%;background:#FFFFFF;border:1.5px solid #5F6368;display:inline-block"></span>
+          <span style="width:17px;height:17px;border-radius:50%;background:#34A853;border:1.5px solid #5F6368;display:inline-block"></span>
+          <span style="width:17px;height:17px;border-radius:50%;background:#1A73E8;border:1.5px solid #5F6368;display:inline-block"></span>
+        </div>
+        <h4>Cada plaza dice su zona</h4>
+        <p>Blanca si es gratis, verde si es de residentes, azul si se paga por horas. La chincheta del mapa sale de ese color, así que decides antes de arrancar y no te llevas la sorpresa al llegar.</p>
+      </div>
+      <div class="trust-feat reveal d1">
+        <div class="trust-feat-icon">
+          <span style="width:17px;height:17px;border-radius:50%;background:#D93025;border:1.5px solid #5F6368;display:inline-block"></span>
+        </div>
+        <h4>Tu plaza, en rojo</h4>
+        <p>Cuando alguien reserva la plaza que has publicado, la ves en rojo en el mapa. De un vistazo sabes cuál es la tuya y que ya tiene un conductor en camino.</p>
+      </div>
+      <div class="trust-feat reveal d2">
+        <div class="trust-feat-icon">&#x1F514;</div>
+        <h4>Avísame si sale una plaza</h4>
+        <p>¿No hay nada libre ahora mismo? Pulsa el botón y durante 30 minutos te avisamos si alguien libera cerca, aunque tengas la app cerrada. Tú eliges a qué distancia, y se apaga solo.</p>
       </div>
     </div>
   </div>
@@ -1108,7 +1141,7 @@ footer {
       <div class="trust-feat reveal d1">
         <div class="trust-feat-icon">&#x1F4CD;</div>
         <h4>Ubicación solo cuando importa</h4>
-        <p>Tu posición exacta se comparte únicamente durante una operación activa. Nunca en segundo plano sin tu permiso explícito.</p>
+        <p>Tu posición se usa durante una operación activa y, si pides que te avisemos de plazas, se guarda un único punto mientras dure ese aviso. Nunca hay rastreo en segundo plano ni histórico de tus desplazamientos.</p>
       </div>
       <div class="trust-feat reveal d2">
         <div class="trust-feat-icon">&#x1F5D1;&#xFE0F;</div>
@@ -1134,7 +1167,7 @@ footer {
         <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
         <span class="btn-text"><small>Descargar en</small>App Store</span>
       </a>
-      <a class="btn btn-ghost" href="#" id="cta-android">
+      <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.parkmatch.com" target="_blank" id="cta-android">
         <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M3.18 23.76c.33.18.7.2 1.06.04l12.37-7.15-2.84-2.84-10.59 9.95zM.5 1.76C.19 2.1 0 2.63 0 3.32v17.36c0 .69.19 1.22.5 1.56l.08.08 9.72-9.72v-.23L.58 1.68.5 1.76zm19.48 8.53l-2.65-1.53-3.15 3.15 3.15 3.15 2.68-1.55c.76-.44.76-1.16-.03-1.22zM4.24.24L16.6 7.38l-2.84 2.84L3.18.27C3.55.1 3.92.06 4.24.24z"/></svg>
         <span class="btn-text"><small>Disponible en</small>Google Play</span>
       </a>
